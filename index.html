@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="/images/kitty.webp" min-width="100%"><br>
+
+    <h2>The picture element</h2>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="/images/kitten2.webp">
+        <source media="(min-width: 450px)" srcset="/images/kitty.webp">
+        <source media="(min-width: 250px)" srcset="/images/blueflowers.webp">
+        <img src="/images/blueflowers.webp">
+    </picture>
+</body>
+</html>
